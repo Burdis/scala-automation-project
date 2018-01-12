@@ -1,7 +1,6 @@
 target/
-.idea/
+.idea
+*.iws
+*.iml
+*.ipr
 .DS_Store
-src/.DS_Store
-src/test/.DS_Store
-src/test/resources/.DS_Store
-project/target/
