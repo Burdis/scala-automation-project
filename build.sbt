@@ -2,14 +2,16 @@ name := "scala-automation-project"
 
 version := "0.1"
 
-scalaVersion := "2.12.4"
+scalaVersion := "2.11.0"
 
 libraryDependencies ++= Seq(
   "org.seleniumhq.selenium"%"selenium-java"%"2.53.0",
   "org.seleniumhq.selenium"%"selenium-htmlunit-driver"%"2.52.0",
-  "org.scalatest"%"scalatest_2.11"%"2.2.1",
-  "info.cukes"%"cucumber-scala_2.11"%"1.2.2",
-  "info.cukes"%"cucumber-junit"%"1.2.2",
-  "info.cukes"%"cucumber-picocontainer"%"1.2.2",
+  "org.scalactic" %% "scalactic" % "3.0.5",
+  "org.scalatest" %% "scalatest" % "3.0.5" % "test",
+  "org.seleniumhq.selenium" % "selenium-java" % "2.35.0" % "test",
+  "info.cukes" % "cucumber-scala_2.11" % "1.2.4",
+  "info.cukes"%"cucumber-junit"%"1.2.5",
+  "info.cukes"%"cucumber-picocontainer"%"1.2.5",
   "com.novocode" % "junit-interface" % "0.11" % "test"
 )
