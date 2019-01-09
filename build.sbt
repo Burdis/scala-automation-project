@@ -13,5 +13,6 @@ libraryDependencies ++= Seq(
   "info.cukes" % "cucumber-scala_2.11" % "1.2.4",
   "info.cukes"%"cucumber-junit"%"1.2.5",
   "info.cukes"%"cucumber-picocontainer"%"1.2.5",
-  "com.novocode" % "junit-interface" % "0.11" % "test"
+  "com.novocode" % "junit-interface" % "0.11" % "test",
+  "org.mongodb.scala" %% "mongo-scala-driver" % "2.5.0"
 )
