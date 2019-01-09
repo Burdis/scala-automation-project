@@ -8,11 +8,11 @@ import org.mongodb.scala._
 object Page extends Driver with MongoFactory {
 
   def getTitle() = {
-
+    driver.getTitle
   }
 
   def navigateToPage(url: String) = {
-
+    driver.navigate().to(url)
   }
 
   def dropCollection() = {
