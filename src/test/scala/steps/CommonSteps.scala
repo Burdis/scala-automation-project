@@ -10,7 +10,7 @@ class CommonSteps extends ScalaDsl with EN with Matchers {
     Page.navigateToPage(url)
   }
 
-  Then("""^I should be on the title (.*)$"""){ (title: String) =>
+  Then("""^I should see the page title (.*)$"""){ (title: String) =>
     Page.getTitle() should equal(title)
   }
 
